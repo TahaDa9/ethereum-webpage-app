@@ -23,7 +23,7 @@ function App() {
   };
 
   const handleGetBalance = async () => {
-    if (!address) return
+    if (!address) return;
 
     const contractABI = [
       {
